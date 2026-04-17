@@ -1,5 +1,4 @@
 import React from 'react';
-import { DynamicIcon } from './Icons';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { Moon, Sun, Search, Menu } from 'lucide-react';
@@ -18,8 +17,13 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode, onMenu
           <Button variant="ghost" size="icon" className="md:hidden" onClick={onMenuClick}>
             <Menu className="h-5 w-5" />
           </Button>
-          <div className="flex items-center gap-2 font-extrabold text-xl tracking-tighter text-primary">
-            <span>PathFinder.pro</span>
+          <div className="flex items-center gap-3">
+            <img
+              src="/ncpl-logo.png"
+              alt="NCPL"
+              className="h-8 w-auto object-contain"
+            />
+            <span className="font-extrabold text-xl tracking-tighter text-primary">PathFinder.pro</span>
           </div>
         </div>
 

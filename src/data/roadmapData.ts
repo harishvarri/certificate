@@ -185,8 +185,8 @@ export const roadmapData: Technology[] = [
           { region: 'India', currency: 'INR', examCost: 4800, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 58 }
         ],
         resources: [
-          { id: 'ms-learn-dp203', title: 'DP-203 Official Path', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/certifications/exams/dp-203', isFree: true, category: 'Learning' },
-          { id: 'dp203-savill', title: 'Azure Data Engineer Cram', provider: 'John Savill', type: 'Video Course', url: 'https://www.youtube.com/playlist?list=PLlVtbbG169nEcO0B_G9m2-FqS5D_wW8vI', isFree: true, category: 'Learning', lastVerified: 'April 2026' }
+          { id: 'ms-learn-dp203', title: 'Microsoft Learn Azure Data Engineer Certification', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203', isFree: true, category: 'Learning' },
+          { id: 'dp203-coursera', title: 'Top-rated Azure Data Engineering Course', provider: 'Coursera', type: 'Video Course', url: 'https://www.coursera.org/learn/prep-for-microsoft-azure-data-engineer-associate-cert-dp-203', isFree: false, category: 'Learning', lastVerified: 'April 2026' }
         ]
       },
       {
@@ -299,10 +299,11 @@ export const roadmapData: Technology[] = [
       }
     ],
     jobPrep: [
-      { id: 'ade-resume-1', title: 'Cloud Data Engineer Senior Resume', provider: 'HackerResume', type: 'Interview Prep', url: 'https://hackerresume.com/templates/data-engineer', isFree: true, category: 'Applying' },
-      { id: 'ade-port-1', title: 'Modern Data Stack Portfolio Guide', provider: 'Seattle Data Guy', type: 'Portfolio Guide', url: 'https://www.youtube.com/playlist?list=PL2V6X0_f_P8-C-G7h-L_M-G9uofI7G-uV', isFree: true, category: 'Applying', lastVerified: 'April 2026', alternativeUrls: ['https://www.youtube.com/watch?v=R67XuYc_Ztk'] },
-      { id: 'ade-mock-1', title: 'Azure Data Engineer Interview Prep', provider: 'Savill IT', type: 'Interview Prep', url: 'https://www.youtube.com/playlist?list=PLlVtbbG169nEcO0B_G9m2-FqS5D_wW8vI', isFree: true, category: 'Applying', lastVerified: 'April 2026', alternativeUrls: ['https://www.youtube.com/watch?v=N_8a3m9eY6k'] },
-      { id: 'ade-mock-2', title: 'DP-203 Exam cram & Interview logic', provider: 'John Savill', type: 'Interview Prep', url: 'https://www.youtube.com/playlist?list=PLlVtbbG169nEcO0B_G9m2-FqS5D_wW8vI', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
+      { id: 'ade-resume-1', title: 'Data Engineer Resume Templates', provider: 'ResumeGenius', type: 'Interview Prep', url: 'https://resumegenius.com/resume-examples/data-engineer-resume', isFree: true, category: 'Applying' },
+      { id: 'ade-port-1', title: 'Data Engineering Portfolio Examples', provider: 'DataExpert', type: 'Portfolio Guide', url: 'https://www.dataexpert.io/blog/data-engineering-portfolio-projects-get-hired', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ade-mock-1', title: 'Data Engineer Interview Questions Walkthrough', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=05Cy8Y6NGaE', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ade-mock-2', title: 'Azure-style Practice Walkthrough', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=98m11r9Ps3o', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ade-mock-backup', title: 'Data Engineer Mock Interview (Backup)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=1Z3wgs24z2Q', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
     ]
   },
   {
@@ -475,7 +476,7 @@ export const roadmapData: Technology[] = [
         ],
         resources: [
           { id: 'sec-plus-comptia', title: 'Official CompTIA Exam Page', provider: 'CompTIA', type: 'Official Docs', url: 'https://www.comptia.org/certifications/security', isFree: true, category: 'Learning' },
-          { id: 'prof-messer', title: 'Professor Messer Security+ Training', provider: 'Professor Messer', type: 'Video Course', url: 'https://www.professormesser.com/security-plus/sy0-701/sy0-701-video-index/', isFree: true, category: 'Learning' }
+          { id: 'prof-messer', title: 'Professor Messer Security+ Training', provider: 'Professor Messer', type: 'Video Course', url: 'https://www.professormesser.com/sy0-701-certification-course/', isFree: true, category: 'Learning' }
         ]
       }
     ],
@@ -488,9 +489,10 @@ export const roadmapData: Technology[] = [
       { id: 'cs-6', title: 'Digital Forensics & IR', description: 'Master the incident response lifecycle. Learn to contain breaches, preserve digital evidence, and conduct root-cause analysis using SIEM tools like Splunk or Sentinel.', level: 'Advanced', order: 6 }
     ],
     jobPrep: [
-      { id: 'cyber-resume', title: 'SOC Analyst Resume Template', provider: 'CyberGrad', type: 'Interview Prep', url: 'https://www.cybergrad.com/resume-templates', isFree: true, category: 'Applying' },
+      { id: 'cyber-resume', title: 'SOC Analyst Resume Template', provider: 'CVCraft', type: 'Interview Prep', url: 'https://cvcraft.roynex.com/resume-examples/soc-analyst-resume-example', isFree: true, category: 'Applying' },
       { id: 'cyber-port', title: 'Cybersecurity Analyst Portfolio Ideas', provider: 'Gerald Auger', type: 'Portfolio Guide', url: 'https://www.youtube.com/playlist?list=PL6Lq-5YidV3uPl8K8kU0oR4wH-Y78kQnC', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
-      { id: 'cyber-mock', title: 'Cybersecurity Analyst Interview', provider: 'Simplified Tech', type: 'Interview Prep', url: 'https://www.youtube.com/playlist?list=PLfN_Zp4z_fKnd95_fU_PSTn6ZfI6pXlU0', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
+      { id: 'cyber-mock', title: 'Security+ SY0-701 Mock-style Q&A', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=jen4sQzbE3I', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'cyber-mock-backup', title: 'Security+ 90-question Practice Walkthrough (Backup)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=doVh_tvcm3o', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
     ]
   },
   {
@@ -516,7 +518,7 @@ export const roadmapData: Technology[] = [
         ],
         resources: [
           { id: 'meta-fs-official', title: 'Professional Certificate Page', provider: 'Meta', type: 'Official Docs', url: 'https://www.coursera.org/professional-certificates/meta-full-stack-engineer', isFree: false, category: 'Learning' },
-          { id: 'fcc-fs', title: 'Complete Web Development Path', provider: 'freeCodeCamp', type: 'Video Course', url: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/', isFree: true, category: 'Learning' }
+          { id: 'fcc-fs', title: 'freeCodeCamp Full Stack Development Path', provider: 'freeCodeCamp', type: 'Video Course', url: 'https://www.freecodecamp.org/learn', isFree: true, category: 'Learning' }
         ]
       }
     ],
@@ -529,9 +531,11 @@ export const roadmapData: Technology[] = [
       { id: 'fs-6', title: 'Cloud-Native Delivery', description: 'Containerize with Docker. Deploy using Vercel or AWS (Amplify/ECS). Master GitHub Actions for automated unit testing and deployment staging.', level: 'Advanced', order: 6 }
     ],
     jobPrep: [
-      { id: 'fs-resume', title: 'Fullstack Developer Portfolio Resume', provider: 'Zety', type: 'Interview Prep', url: 'https://zety.com/resume-examples/full-stack-developer-resume', isFree: true, category: 'Applying' },
-      { id: 'fs-port', title: 'Modern Fullstack Portfolio Guide', provider: 'Josh Tried Coding', type: 'Portfolio Guide', url: 'https://www.youtube.com/playlist?list=PL3v6zZ8Xq2j3-eYy9ZfGfS1-O5S5h_vS-', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
-      { id: 'fs-mock', title: 'Senior Fullstack Mock Interview', provider: 'Interviewing.io', type: 'Interview Prep', url: 'https://www.youtube.com/playlist?list=PLfN_Zp4z_fKnd95_fU_PSTn6ZfI6pXlU0', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
+      { id: 'fs-resume', title: 'Full Stack Developer Resume Templates', provider: 'ResumeGenius', type: 'Interview Prep', url: 'https://resumegenius.com/resume-examples/full-stack-developer', isFree: true, category: 'Applying' },
+      { id: 'fs-port', title: 'Full Stack Portfolio Examples', provider: 'ProjectPro', type: 'Portfolio Guide', url: 'https://www.projectpro.io/article/full-stack-portfolio-projects/1023', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'fs-mock', title: 'Full Stack Developer Mock Interview', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=1Z3wgs24z2Q', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'fs-video', title: 'Full Stack Development YouTube Playlist', provider: 'YouTube', type: 'Video Course', url: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'fs-mock-backup', title: 'Meta-style Mock Coding Interview (Backup)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=1MPEJ2j0z34', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
     ],
     portfolioProjects: [
       {
@@ -575,8 +579,8 @@ export const roadmapData: Technology[] = [
           { region: 'India', currency: 'INR', examCost: 4800, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 58 }
         ],
         resources: [
-          { id: 'dp100-official', title: 'DP-100 Exam Resource', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/certifications/exams/dp-100', isFree: true, category: 'Learning' },
-          { id: 'dp100-savill', title: 'Azure Data Science Cram', provider: 'John Savill', type: 'Video Course', url: 'https://www.youtube.com/playlist?list=PLlVtbbG169nHMVytzVEn_Fay-YI_Nsc3-', isFree: true, category: 'Learning', lastVerified: 'April 2026' }
+          { id: 'ds-official-ms', title: 'Microsoft Data Scientist Career Path', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/training/career-paths/data-scientist', isFree: true, category: 'Learning' },
+          { id: 'ds-recommended-gfg', title: 'Top-rated Data Analytics Course', provider: 'GeeksforGeeks', type: 'Video Course', url: 'https://www.geeksforgeeks.org/courses/data-analytics-training-program-excel-sql-python-powerbi', isFree: false, category: 'Learning', lastVerified: 'April 2026' }
         ]
       },
       {
@@ -607,9 +611,11 @@ export const roadmapData: Technology[] = [
       { id: 'ds-6', title: 'Applied AI Deployment', description: 'Operationalize models using Gradio, Streamlit, or FastAPI.', level: 'Advanced', order: 6 }
     ],
     jobPrep: [
-      { id: 'ds-resume', title: 'Data Science Resume for Top Companies', provider: 'Ken Jee', type: 'Interview Prep', url: 'https://www.youtube.com/playlist?list=PL2ovzhS-VjK_0v7709jTcmU6aZIdrUu8X', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
-      { id: 'ds-port', title: 'Portfolio Project from Scratch', provider: 'Ken Jee', type: 'Portfolio Guide', url: 'https://www.youtube.com/playlist?list=PL2ovzhS-VjKhQZrkI3NlXfWc8YI_vWn6J', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
-      { id: 'ds-mock', title: 'Data Science Interview Questions', provider: 'Krish Naik', type: 'Interview Prep', url: 'https://www.youtube.com/playlist?list=PLfN_Zp4z_fKnd95_fU_PSTn6ZfI6pXlU0', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
+      { id: 'ds-resume', title: 'Data Analyst Resume Templates', provider: 'MyPerfectResume', type: 'Interview Prep', url: 'https://www.myperfectresume.com/resume/examples/statistics/data-analyst', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ds-port', title: 'Data Science Portfolio Ideas', provider: 'ProjectPro', type: 'Portfolio Guide', url: 'https://www.projectpro.io/article/data-science-portfolio-projects/954', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ds-mock', title: 'Data Science Interview-style Walkthrough', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=qcV3GPeRpvA', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ds-video', title: 'Data Science YouTube Playlist Roundup', provider: 'Towards Data Science', type: 'Video Course', url: 'https://towardsdatascience.com/5-youtube-playlists-that-teach-you-all-about-data-science-ea300d6d8ed5', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'ds-mock-backup', title: 'Data Science Mock Interview (Backup)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=1Z3wgs24z2Q', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
     ]
   },
   {
@@ -708,8 +714,8 @@ export const roadmapData: Technology[] = [
         minExperienceYears: 0,
         costs: [{ region: 'Global', currency: 'USD', examCost: 0, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 0 }],
         resources: [
-          { id: 'gcp-ai-fun', title: 'Generative AI Learning Path', provider: 'Google', type: 'Official Docs', url: 'https://www.cloudskillsboost.google/course_templates/536', isFree: true, category: 'Learning' },
-          { id: 'gcp-ai-yt', title: 'Introduction to Generative AI', provider: 'Google Cloud', type: 'Video Course', url: 'https://www.youtube.com/playlist?list=PLIivdWyY5uicfIs_mB0669O9L77v8fC-D', isFree: true, category: 'Learning', lastVerified: 'April 2026' }
+          { id: 'genai-official-ms', title: 'Microsoft Generative AI Fundamentals', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/', isFree: true, category: 'Learning' },
+          { id: 'genai-recommended-coursera', title: 'Prompt Engineering & RAG Training', provider: 'Coursera', type: 'Video Course', url: 'https://www.coursera.org/specializations/llm-engineering-prompting-fine-tuning-optimization-rag', isFree: false, category: 'Learning', lastVerified: 'April 2026' }
         ]
       },
       {
@@ -739,8 +745,11 @@ export const roadmapData: Technology[] = [
       { id: 'gai-5', title: 'Deploying AI Agents', description: 'Build autonomous agents with tool-calling capabilities. Master agent orchestration frameworks (AutoGPT/CrewAI) and deploy using serverless AI endpoints.', level: 'Advanced', order: 5 }
     ],
     jobPrep: [
-      { id: 'gai-resume', title: 'AI Engineer Resume Builder', provider: 'Levels.fyi', type: 'Interview Prep', url: 'https://www.levels.fyi/blog/ai-engineer-resume.html', isFree: true, category: 'Applying' },
-      { id: 'gai-port', title: 'GenAI Portfolio: Building a RAG App', provider: 'Build Fast with AI', type: 'Portfolio Guide', url: 'https://www.youtube.com/playlist?list=PLQIsXNnNvv1n_m_S-fO4H0mEPrA1_R8X8', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
+      { id: 'gai-resume', title: 'AI Engineer Resume Templates', provider: 'WAHResume', type: 'Interview Prep', url: 'https://www.wahresume.com/resume-templates/ai-engineer', isFree: true, category: 'Applying' },
+      { id: 'gai-port', title: 'Generative AI Portfolio Examples', provider: 'NovelVista', type: 'Portfolio Guide', url: 'https://www.novelvista.com/blogs/ai-and-ml/generative-ai-portfolio-projects', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'gai-mock', title: 'AI/ML Mock Coding Interview', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=c6zu897JVQY', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'gai-video', title: 'Generative AI for Beginners Playlist Search', provider: 'YouTube', type: 'Video Course', url: 'https://www.youtube.com/results?search_query=Microsoft+Generative+AI+for+Beginners+playlist', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'gai-mock-backup', title: 'Meta-style Mock Coding Interview (Backup)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=94', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
     ]
   },
   {
@@ -765,7 +774,10 @@ export const roadmapData: Technology[] = [
           { region: 'Canada', currency: 'CAD', examCost: 128, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 99 },
           { region: 'India', currency: 'INR', examCost: 3696, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 45 }
         ],
-        resources: [{ id: 'pl900-docs', title: 'PL-900 Learning Path', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/certifications/exams/pl-900', isFree: true, category: 'Learning' }]
+        resources: [
+          { id: 'pl900-docs', title: 'PL-900 Official Certification Page', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/', isFree: true, category: 'Learning' },
+          { id: 'powerplatform-training', title: 'Power Platform Developer Training', provider: 'Microsoft Learn', type: 'Video Course', url: 'https://learn.microsoft.com/en-us/training/powerplatform/', isFree: true, category: 'Learning' }
+        ]
       },
       {
         id: 'pl-100',
@@ -781,7 +793,7 @@ export const roadmapData: Technology[] = [
           { region: 'Canada', currency: 'CAD', examCost: 215, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 165 },
           { region: 'India', currency: 'INR', examCost: 4800, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 58 }
         ],
-        resources: [{ id: 'pl100-docs', title: 'PL-100 Learning Path', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/certifications/exams/pl-100', isFree: true, category: 'Learning' }]
+        resources: [{ id: 'pl100-docs', title: 'PL-400 Power Platform Developer Associate', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/credentials/certifications/power-platform-developer-associate/', isFree: true, category: 'Learning' }]
       },
       {
         id: 'ms-400',
@@ -797,7 +809,7 @@ export const roadmapData: Technology[] = [
           { region: 'Canada', currency: 'CAD', examCost: 215, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 165 },
           { region: 'India', currency: 'INR', examCost: 4800, learningCost: 'Free', practiceCost: 'Free', usdEquivalent: 58 }
         ],
-        resources: [{ id: 'ms102-docs', title: 'MS-102 Learning Path', provider: 'Microsoft', type: 'Official Docs', url: 'https://learn.microsoft.com/en-us/certifications/exams/ms-102', isFree: true, category: 'Learning' }]
+        resources: [{ id: 'ms102-docs', title: 'M365 Copilot Playlist Search', provider: 'YouTube', type: 'Video Course', url: 'https://www.youtube.com/results?search_query=Copilot+for+Microsoft+365+playlist', isFree: true, category: 'Learning' }]
       }
     ],
     roadmap: [
@@ -807,6 +819,12 @@ export const roadmapData: Technology[] = [
       { id: 'mw-4', title: 'AI Builder & Copilot', description: 'Integrate AI models and LLM-powered Copilots into custom apps.', level: 'Intermediate', order: 4 },
       { id: 'mw-5', title: 'Governance & DLP', description: 'Implement environment strategies, DLP policies, and admin centers.', level: 'Advanced', order: 5 },
       { id: 'mw-6', title: 'Custom Connectors', description: 'Connect Power Platform to external APIs and legacy systems.', level: 'Advanced', order: 6 }
+    ],
+    jobPrep: [
+      { id: 'mw-resume', title: 'M365 Consultant Resume Templates', provider: 'Hire IT People', type: 'Interview Prep', url: 'https://www.hireitpeople.com/resume-database/86-sharepoint-resumes/186994-office-365-migration-consultant-resume-1', isFree: true, category: 'Applying' },
+      { id: 'mw-port', title: 'Modern Workplace Portfolio Examples', provider: 'UXfolio', type: 'Portfolio Guide', url: 'https://blog.uxfol.io/digital-portfolio/', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'mw-mock', title: 'Power Platform Interview Questions (YouTube Search)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/results?search_query=Power+Platform+interview+questions', isFree: true, category: 'Applying', lastVerified: 'April 2026' },
+      { id: 'mw-mock-backup', title: 'Consultant-style Mock Interview (Backup)', provider: 'YouTube', type: 'Interview Prep', url: 'https://www.youtube.com/watch?v=1Z3wgs24z2Q', isFree: true, category: 'Applying', lastVerified: 'April 2026' }
     ]
   }
 ];
