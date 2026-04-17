@@ -1,0 +1,37 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "vite",
+  "installCommand": "npm ci --prefer-offline --no-audit",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "GEMINI_API_KEY": "@gemini_api_key"
+  },
+  "functions": {
+    "api/roadmaps.ts": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/roadmaps/[id].ts": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=60"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+!.env.*.example
+
+# Vercel
+.vercel
+.vercel/
+out/
+
+# Development
+.vite/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
