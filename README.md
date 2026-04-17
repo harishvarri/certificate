@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Certification Path Finder
 
-# Run and deploy your AI Studio app
+Career path and certification explorer for Data, Cloud, Security, AI, and Software tracks.
 
-This contains everything you need to run your app locally.
+## Local Development
 
-View your app in AI Studio: https://ai.studio/apps/23f729eb-bc74-4340-bb53-2854ada71e4c
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+Prerequisites: Node.js 20+ and npm.
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   - `npm install`
+2. Start the dev server:
+   - `npm run dev`
+3. Open:
+   - `http://localhost:5173`
+
+## Production Build Check
+
+Run these before deploying:
+
+- `npm run lint`
+- `npm run build`
+- `npm run preview`
+
+## GitHub Push (First Time)
+
+1. Initialize git (if needed):
+   - `git init`
+2. Commit your code:
+   - `git add .`
+   - `git commit -m "Prepare production-ready Vercel deployment"`
+3. Add your GitHub remote:
+   - `git remote add origin <your-repo-url>`
+4. Push:
+   - `git branch -M main`
+   - `git push -u origin main`
+
+## Easy Vercel Deployment (GitHub)
+
+1. Go to [Vercel](https://vercel.com) and click **Add New Project**.
+2. Import your GitHub repository.
+3. Vercel auto-detects this as a Vite app using `vercel.json`.
+4. Click **Deploy**.
+
+For every new push to `main`, Vercel will auto-deploy.
+
+## Notes
+
+- Static frontend output is in `dist/`.
+- API routes are in `api/` (`/api/roadmaps`, `/api/roadmaps/:id`).
+- The NCPL logo is served from `public/ncpl-logo.png`.
