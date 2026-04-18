@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode, onMenu
               alt="NCPL"
               className="h-8 w-auto object-contain"
             />
-            <span className="font-extrabold text-xl tracking-tighter text-primary">PathFinder.pro</span>
+            <span className="font-extrabold text-xl tracking-tighter text-primary">Certification Guide</span>
           </div>
         </div>
 
